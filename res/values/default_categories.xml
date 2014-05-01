@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="default_categories" tools:ignore="InconsistentArrays">
+        <item>Shopping cart</item>
+        <item>Mortgage</item>
+        <item>Rental</item>
+        <item>Heating</item>
+        <item>Electricity</item>
+        <item>Telephone</item>
+        <item>Mobile phone</item>
+        <item>Internet</item>
+        <item>Water</item>
+        <item>Trash</item>
+        <item>Fuel</item>
+        <item>Home insurance</item>
+        <item>Vehicle insurance</item>
+        <item>Home repairs</item>
+        <item>Vehicle repairs</item>
+        <item>Public transport</item>
+        <item>Cinema, theater and museums</item>
+        <item>Trips</item>
+        <item>Hobbies</item>
+        <item>Other</item>
+	</string-array>
+</resources>

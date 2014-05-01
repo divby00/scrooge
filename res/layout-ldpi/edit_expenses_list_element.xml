@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_margin="10dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/btnListEditCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnListRemoveCat"
+        android:src="@drawable/btn_gtk_edit_small"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/btnListRemoveCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/btn_list_remove"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/lblEditExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnListEditCat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/lblEditDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/btnListEditCat"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/lblEdCatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnListEditCat"
+        android:layout_toLeftOf="@+id/btnListEditCat"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textIsSelectable="true" />
+
+</RelativeLayout>

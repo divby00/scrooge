@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="default_categories">
+        <item>Cesta de la compra</item>
+        <item>Hipoteca</item>
+        <item>Alquiler</item>
+        <item>Calefacción</item>
+        <item>Electricidad</item>
+        <item>Teléfono fijo</item>
+        <item>Teléfono móvil</item>
+        <item>Internet</item>
+        <item>Agua</item>
+        <item>Basura</item>
+        <item>IBI</item>
+        <item>Comunidad</item>
+        <item>Combustible</item>
+        <item>Seguro hogar</item>
+        <item>Seguro vehículo</item>
+        <item>Reparaciones hogar</item>
+        <item>Reparaciones vehículo</item>
+        <item>ITV</item>
+        <item>Impuesto circulación</item>
+        <item>Transporte público</item>
+        <item>Cine, teatro y museos</item>
+        <item>Viajes</item>
+        <item>Hobbies</item>
+        <item>Otros</item>
+	</string-array>
+</resources>

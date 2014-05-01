@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_margin="10dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/date"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/lblCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblDate"
+        android:text="@string/categ"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/lblExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblCategory"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/expense"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+</RelativeLayout>
